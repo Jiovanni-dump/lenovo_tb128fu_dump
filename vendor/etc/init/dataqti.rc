@@ -1,0 +1,13 @@
+# Copyright (c) 2019 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+# Create the directories used by DPM subsystem
+
+# msm specific files that need to be created on /data
+on post-fs-data
+    #Create DATAQTI dir for logs
+    mkdir /data/vendor/dataqti 0770 radio radio
+    chmod 0770 /data/vendor/dataqti
+
+

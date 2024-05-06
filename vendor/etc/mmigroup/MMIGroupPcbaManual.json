@@ -1,0 +1,151 @@
+{
+	"itemConfig": [{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "Vibrator",
+			"paramconfig": {
+				"is_auto_vibrate": false
+			}
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "LCD"
+		},
+		{
+			"showName": "Flashlight"
+		},
+		{
+			"showName": "TouchPanel"
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "Battery",
+			"paramconfig": {
+				"support_afc_charge": false,
+				"Voltage": {
+					"min": 2500,
+					"max": 4500
+				},
+				"ChargerCurrent": {
+					"min": -5000000,
+					"max": 4100000
+				},
+				"errorBatteryId": []
+			}
+		},
+		{
+			"showName": "Battery_20W",
+			"support": false
+		},
+		{
+			"showName": "Battery_30W",
+			"support": false
+		},
+		{
+			"showName": "OTG",
+			"paramconfig": {
+				"support_typec": false
+			}
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS",
+				"paramconfig": {
+				"is_show_location": false,
+				"is_need_control": true,
+				"signal": {
+					"min": 30,
+					"max": 999999
+				}
+			}
+		},
+		{
+			"showName": "Accelerometer",
+			"paramconfig": {
+				"support_calibrate": true,
+				"support_axialresult": true,
+				"support_angle45": false,
+				"support_angleneg45": false,
+				"is_auto_calibrate": false,
+				"autoTest": {
+					"support_calibrate": false
+				}
+			}
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Proximity"
+		},
+		{
+			"showName": "Proximity_C"
+		},
+		{
+			"showName": "Gyroscope",
+			"paramconfig": {
+				"support_calibrate": false
+			}
+		},
+		{
+			"showName": "Hall"
+		},
+		{
+			"showName": "TopSar",
+			"paramconfig": {
+				"button_position": "top",
+				"check_exist_only": "true"
+			}
+		},
+		{
+			"showName": "BottomSar",
+			"paramconfig": {
+				"button_position": "bottom",
+				"check_exist_only": "true"
+			}
+		},
+		{
+			"showName": "LeftTopSpeaker"
+		},
+		{
+			"showName": "LeftBottomSpeaker"
+		},
+		{
+			"showName": "RightTopSpeaker"
+		},
+		{
+			"showName": "RightBottomSpeaker"
+		},
+		{
+			"showName": "MainMicToHeadPhone"
+		},
+		{
+			"showName": "HeadSet"
+		},
+		{
+			"showName": "HsMicToHeadPhone"
+		}
+	]
+}

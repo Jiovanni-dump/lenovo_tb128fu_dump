@@ -1,0 +1,29 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Optical_c"
+    },
+    {
+      "showName": "Optical",
+      "paramconfig": {
+        "value_change_in": 0
+      }
+    },
+    {
+      "showName": "Proximity_C",
+      "support": false
+    },
+    {
+      "showName": "Proximity",
+      "action": "com.mmigroup.action.PROXIMITY",
+      "support": false,
+      "paramconfig": {
+        "distance_tolerance": 0.5
+      }
+    },
+    {
+      "showName": "Proximity_st",
+      "support": false
+    }
+  ]
+}

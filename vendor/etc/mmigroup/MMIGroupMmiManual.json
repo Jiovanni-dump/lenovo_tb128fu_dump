@@ -1,0 +1,140 @@
+{
+	"itemConfig": [{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "Vibrator",
+			"action": "com.mmigroup.action.RANDOMVIBRATER",
+			"support": true,
+			"automatic": false,
+			"paramconfig": {
+				"is_auto_vibrate": false,
+				"randomLongInterval": [
+					6,
+					500,
+					2000
+				],
+				"randomShortInterval": [
+					6,
+					200,
+					200
+				]
+			}
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "Battery",
+			"support": false,
+			"paramconfig": {
+				"support_afc_charge": false
+			}
+		},
+		{
+			"showName": "Battery_30W",
+			"paramconfig": {
+				"support_afc_charge": false
+			}
+		},
+		{
+			"showName": "Battery_20W",
+			"paramconfig": {
+				"support_afc_charge": false
+			}
+		},
+		{
+			"showName": "OTG"
+		},
+		{
+			"showName": "LCD"
+		},
+		{
+			"showName": "Flashlight"
+		},
+		{
+			"showName": "TouchPanel"
+		},
+		{
+			"showName": "TpOpenShort"
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "Gyroscope"
+		},
+		{
+			"showName": "Accelerometer"
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Proximity"
+		},
+		{
+			"showName": "Proximity_C"
+		},
+		{
+			"showName": "Hall"
+		},
+		{
+			"showName": "TopSar"
+		},
+		{
+			"showName": "BottomSar"
+		},
+		{
+			"showName": "SMARTPA"
+		},
+		{
+			"showName": "LeftTopSpeaker"
+		},
+		{
+			"showName": "LeftBottomSpeaker"
+		},
+		{
+			"showName": "RightTopSpeaker"
+		},
+		{
+			"showName": "RightBottomSpeaker"
+		},
+		{
+			"showName": "Speaker"
+		},
+		{
+			"showName": "MainMicToHeadPhone"
+		},
+		{
+			"showName": "HsMicToHeadPhone"
+		},
+		{
+			"showName": "HeadSet"
+		},
+		{
+			"showName": "FM"
+		}
+	]
+}

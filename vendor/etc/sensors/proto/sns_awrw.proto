@@ -1,0 +1,15 @@
+syntax = "proto2";
+import "nanopb.proto";
+
+// sar sensor register read and write data encoding
+enum sns_register_msgid {
+	option (nanopb_enumopt).long_names = false;
+
+	SNS_SAR_MSGID_READ_EVENT = 714;
+	SNS_SAR_MSGID_WRITE_EVENT = 715;
+}
+
+message sns_register_awrw_event {
+	required fixed32 value =1;
+	required bytes awrw_buf =2;
+}

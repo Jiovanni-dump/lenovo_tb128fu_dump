@@ -1,0 +1,57 @@
+{
+	"itemConfig": [{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "TouchPanel",
+			"support": false
+		},
+		{
+			"showName": "TpOpenShort",
+			"support": false
+		},
+		{
+			"showName": "LCD"
+		},
+		{
+			"showName": "Accelerometer",
+			"support": false
+		},
+		{
+			"showName": "Optical",
+			"support": false
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "Flashlight",
+			"support": false
+		},
+		{
+			"showName": "Proximity",
+			"support": false
+		},
+		{
+			"showName": "Proximity_C",
+			"support": false
+		},
+		{
+			"showName": "Gyroscope",
+			"support": false
+		},
+		{
+			"showName": "Hall",
+			"support": false
+		},
+		{
+			"showName": "TopSar"
+		},
+		{
+			"showName": "BottomSar"
+		}
+	]
+}

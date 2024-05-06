@@ -1,0 +1,223 @@
+{
+  "config":{
+    "hw_platform": ["IDP","QRD","HDK"],
+    "soc_id": ["417", "420", "444", "445", "356", "518"]
+  },
+  "hx90xx":{
+    "owner": "hx90xx",
+    ".sar":{
+      "owner": "hx90xx",
+      ".config":{
+        "owner": "hx90xx",
+        "is_dri":{ "type": "int", "ver": "1",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "hx90xx_0_platform":{
+    "owner": "sns_hx90xx",
+    ".config":{
+      "owner": "sns_hx90xx",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "40"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+	  "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "32"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+		"data": "/see/rail/eLDO"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".placement":{
+      "owner": "sns_hx90xx",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+
+    ".workflow":{
+	"owner": "sns_hx90xx",
+	"G_FLAG_01":{ "type": "int", "ver": "0","data": "11"},
+	"G_FLAG_02":{ "type": "int", "ver": "0","data": "22"},
+	"G_FLAG_03":{ "type": "int", "ver": "0","data": "33"},
+	"G_FLAG_04":{ "type": "int", "ver": "0","data": "44"},
+	"G_FLAG_05":{ "type": "int", "ver": "0","data": "55"}
+    },
+
+	".register":{
+	  "owner": "sns_hx90xx",
+	  "Is_config":{ "type": "int", "ver": "0",
+		"data": "1"
+	  },
+
+	  "R_000_0x00":{ "type": "int", "ver": "0","data": "0x00"},
+	  "V_000_0x00":{ "type": "int", "ver": "0","data": "0x40"},
+	  "R_001_0x01":{ "type": "int", "ver": "0","data": "0x01"},
+	  "V_001_0x01":{ "type": "int", "ver": "0","data": "0x82"},
+	  "R_002_0x02":{ "type": "int", "ver": "0","data": "0x02"},
+	  "V_002_0x02":{ "type": "int", "ver": "1","data": "0x14"},
+	  "R_003_0x0D":{ "type": "int", "ver": "0","data": "0x0D"},
+	  "V_003_0x0D":{ "type": "int", "ver": "1","data": "0x03"},
+	  "R_004_0x0E":{ "type": "int", "ver": "0","data": "0x0E"},
+	  "V_004_0x0E":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_005_0x10":{ "type": "int", "ver": "0","data": "0x10"},
+	  "V_005_0x10":{ "type": "int", "ver": "1","data": "0x15"},
+	  "R_006_0x11":{ "type": "int", "ver": "0","data": "0x11"},
+	  "V_006_0x11":{ "type": "int", "ver": "1","data": "0x45"},
+	  "R_007_0x12":{ "type": "int", "ver": "0","data": "0x12"},
+	  "V_007_0x12":{ "type": "int", "ver": "0","data": "0x11"},
+	  "R_008_0x13":{ "type": "int", "ver": "0","data": "0x13"},
+	  "V_008_0x13":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_009_0x14":{ "type": "int", "ver": "0","data": "0x14"},
+	  "V_009_0x14":{ "type": "int", "ver": "0","data": "0x00"},    
+	  "R_010_0x1F":{ "type": "int", "ver": "0","data": "0x1F"},
+	  "V_010_0x1F":{ "type": "int", "ver": "0","data": "0x69"},
+	  "R_011_0x21":{ "type": "int", "ver": "0","data": "0x21"},
+	  "V_011_0x21":{ "type": "int", "ver": "0","data": "0x69"},    
+	  "R_012_0x2A":{ "type": "int", "ver": "0","data": "0x2A"},
+	  "V_012_0x2A":{ "type": "int", "ver": "1","data": "0x33"},
+	  "R_013_0x2B":{ "type": "int", "ver": "0","data": "0x2B"},
+	  "V_013_0x2B":{ "type": "int", "ver": "0","data": "0x02"},
+	  "R_014_0x2C":{ "type": "int", "ver": "0","data": "0x2C"},
+	  "V_014_0x2C":{ "type": "int", "ver": "1","data": "0x99"},
+	  "R_015_0x2D":{ "type": "int", "ver": "0","data": "0x2D"},
+	  "V_015_0x2D":{ "type": "int", "ver": "0","data": "0x88"},
+	  "R_016_0x2E":{ "type": "int", "ver": "0","data": "0x2E"},
+	  "V_016_0x2E":{ "type": "int", "ver": "0","data": "0x10"},
+	  "R_017_0x2F":{ "type": "int", "ver": "0","data": "0x2F"},
+	  "V_017_0x2F":{ "type": "int", "ver": "0","data": "0x11"},     
+	  "R_018_0x30":{ "type": "int", "ver": "0","data": "0x30"},
+	  "V_018_0x30":{ "type": "int", "ver": "0","data": "0x01"},
+	  "R_019_0x38":{ "type": "int", "ver": "0","data": "0x38"},
+	  "V_019_0x38":{ "type": "int", "ver": "0","data": "0xF0"},
+	  "R_020_0x3B":{ "type": "int", "ver": "0","data": "0x3B"},
+	  "V_020_0x3B":{ "type": "int", "ver": "1","data": "0x07"},
+	  "R_021_0x50":{ "type": "int", "ver": "0","data": "0x50"},
+	  "V_021_0x50":{ "type": "int", "ver": "0","data": "0xf5"},
+	  "R_022_0x6E":{ "type": "int", "ver": "0","data": "0x6E"},
+	  "V_022_0x6E":{ "type": "int", "ver": "0","data": "0x00"},  
+	  "R_023_0x80":{ "type": "int", "ver": "0","data": "0x80"},
+	  "V_023_0x80":{ "type": "int", "ver": "1","data": "0x08"},
+	  "R_024_0x81":{ "type": "int", "ver": "0","data": "0x81"},
+	  "V_024_0x81":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_025_0x82":{ "type": "int", "ver": "0","data": "0x82"},
+	  "V_025_0x82":{ "type": "int", "ver": "1","data": "0x05"},
+	  "R_026_0x83":{ "type": "int", "ver": "0","data": "0x83"},
+	  "V_026_0x83":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_027_0x84":{ "type": "int", "ver": "0","data": "0x84"},
+	  "V_027_0x84":{ "type": "int", "ver": "0","data": "0x40"},
+	  "R_028_0x85":{ "type": "int", "ver": "0","data": "0x85"},
+	  "V_028_0x85":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_029_0x86":{ "type": "int", "ver": "0","data": "0x86"},
+	  "V_029_0x86":{ "type": "int", "ver": "0","data": "0x40"},
+	  "R_030_0x87":{ "type": "int", "ver": "0","data": "0x87"},
+	  "V_030_0x87":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_031_0x88":{ "type": "int", "ver": "0","data": "0x88"},
+	  "V_031_0x88":{ "type": "int", "ver": "1","data": "0x07"},
+	  "R_032_0x89":{ "type": "int", "ver": "0","data": "0x89"},
+	  "V_032_0x89":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_033_0x8A":{ "type": "int", "ver": "0","data": "0x8A"},
+	  "V_033_0x8A":{ "type": "int", "ver": "1","data": "0x04"},
+	  "R_034_0x8B":{ "type": "int", "ver": "0","data": "0x8B"},
+	  "V_034_0x8B":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_035_0x8C":{ "type": "int", "ver": "0","data": "0x8C"},
+	  "V_035_0x8C":{ "type": "int", "ver": "0","data": "0x20"},
+	  "R_036_0x8D":{ "type": "int", "ver": "0","data": "0x8D"},
+	  "V_036_0x8D":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_037_0x8E":{ "type": "int", "ver": "0","data": "0x8E"},
+	  "V_037_0x8E":{ "type": "int", "ver": "0","data": "0x20"},
+	  "R_038_0x8F":{ "type": "int", "ver": "0","data": "0x8F"},
+	  "V_038_0x8F":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_039_0xC0":{ "type": "int", "ver": "0","data": "0xC0"},
+	  "V_039_0xC0":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_040_0xC1":{ "type": "int", "ver": "0","data": "0xC1"},
+	  "V_040_0xC1":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_041_0xC3":{ "type": "int", "ver": "0","data": "0xC3"},
+	  "V_041_0xC3":{ "type": "int", "ver": "0","data": "0xF0"},
+	  "R_042_0xCA":{ "type": "int", "ver": "0","data": "0xCA"},
+	  "V_042_0xCA":{ "type": "int", "ver": "0","data": "0x00"}
+	}
+  }
+}

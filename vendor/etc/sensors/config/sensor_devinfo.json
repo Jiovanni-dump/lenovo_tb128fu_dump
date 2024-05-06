@@ -1,0 +1,64 @@
+{
+  "config":{
+    "hw_platform": ["QRD", "IDP"],
+    "soc_id": ["507", "518"]
+  },
+  "sensor_devinfo": {
+    "owner": "NA",
+    ".gyro_bmi220":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "bmi26x_0_platform.gyro.fac_cal.bias"
+      }
+    },
+    ".gsensor_bmi220":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "bmi26x_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".gyro_bmi3x0":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "bmi3x0_0_platform.gyro.fac_cal.bias"
+      }
+    },
+    ".gsensor_bmi3x0":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "bmi3x0_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".gyro_qmi8658":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "qmi8658_0_platform.gyro.fac_cal.bias"
+      }
+    },
+    ".gsensor_qmi8658":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "qmi8658_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".gyro_icm42607":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "icm4x6xx_0_platform.gyro.fac_cal.bias"
+      }
+    },
+    ".gsensor_icm42607":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "icm4x6xx_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".als_stk3329_als": {
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "stk3329b_0_platform.als.fac_cal"
+      }
+    }
+    }
+  }
+}

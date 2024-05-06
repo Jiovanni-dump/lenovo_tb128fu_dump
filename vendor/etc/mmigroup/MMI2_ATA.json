@@ -1,0 +1,126 @@
+{
+  "itemConfig": [
+    {
+      "showName": "TpOpenShort",
+      "action": "com.mmigroup.action.TPOPENSHORT",
+      "support": true,
+      "automatic": true,
+      "paramconfig": {
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "LPWGRawdata",
+      "action": "com.mmigroup.action.lpwgrawdata",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "Backlight_bright",
+      "action": "com.mmigroup.action.BACKLIGHT",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "return_adb_broadcast_result": true,
+        "brightness": [
+          255
+        ]
+      }
+    },
+    {
+      "showName": "Backlight_dark",
+      "action": "com.mmigroup.action.BACKLIGHT",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "return_adb_broadcast_result": true,
+        "holo_dark": true,
+        "brightness": [
+          0
+        ]
+      }
+    },
+    {
+      "showName": "Accelerometer_C",
+      "action": "com.mmigroup.action.ACCELEROMETER_C",
+      "support": true,
+      "automatic": true,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": false,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "data_suffix_rate": 1000,
+        "gravity_45_degree_x": -4.9000,
+        "gravity_45_degree_y": 4.9000,
+        "gravity_45_degree_z": 6.9340,
+        "gravity_45_degree_tolerance": 0.71,
+        "gravity_axial_limit": 1.5,
+        "is_auto_calibrate": true,
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "Gyroscope_C",
+      "action": "com.mmigroup.action.GYROSCOPE_C",
+      "automatic": true,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_test": true,
+        "is_auto_calibrate": true,
+        "return_adb_broadcast_result":true
+      }
+    },
+    {
+      "showName": "SMARTPA",
+      "action": "com.mmigroup.action.audioloop.SMARTPA",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "return_adb_broadcast_result":true
+      }
+    },
+    {
+      "showName": "DualSIMCard",
+      "action": "com.mmigroup.action.DualSim",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "return_adb_broadcast_result":true
+      },
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.DualSimCardService"
+    },
+    {
+      "showName": "fingerprint",
+      "action": "com.mmigroup.action.FINGERPRINT",
+      "support": true,
+      "automatic": true,
+      "paramconfig": {
+        "return_adb_broadcast_result": true,
+        "needEnrolNum": 1,
+        "support_selfTest": true,
+        "support_checkBoardTest": true,
+        "support_enrolTest": true,
+        "support_identifyTest": false
+      }
+    },
+
+    {
+      "showName": "FM",
+      "action": "com.mmigroup.action.FM",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.audioitem.FMBackgroundService",
+      "paramconfig": {
+        "return_adb_broadcast_result": true,
+        "volume_rate": 1
+      }
+    }
+  ]
+}

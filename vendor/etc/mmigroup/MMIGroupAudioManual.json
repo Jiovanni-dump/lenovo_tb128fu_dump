@@ -1,0 +1,45 @@
+{
+  "itemConfig": [
+	{
+      "showName": "LeftTopSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": false,
+        "music_file": "/vendor/etc/mmigroup/subjectiveTest.wav"
+      }
+    },
+	{
+      "showName": "LeftBottomSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": false,
+        "music_file": "/vendor/etc/mmigroup/subjectiveTest.wav"
+      }
+    },
+	{
+      "showName": "RightTopSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": false,
+        "music_file": "/vendor/etc/mmigroup/subjectiveTest.wav"
+      }
+    },
+	{
+      "showName": "RightBottomSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": false,
+        "music_file": "/vendor/etc/mmigroup/subjectiveTest.wav"
+      }
+    },
+	{
+      "showName": "Speaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": false,
+        "music_file": "/vendor/etc/mmigroup/subjectiveTest.wav",
+        "markedWords": "speaker_isMediaPlaying"
+      }
+    }
+  ]
+}

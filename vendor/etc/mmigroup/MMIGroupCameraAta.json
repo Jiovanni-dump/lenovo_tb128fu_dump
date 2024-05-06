@@ -1,0 +1,296 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Camera_Flashlight",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "cameraId": 0,
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": true,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "MainCameraATAJPGFlash",
+        "outputsize": "4000x3000",
+        "pic_format": "JPEG",
+        "auto_takepicture_delay": 2000
+      },
+      "requestComm": [
+        "MainCamera"
+      ]
+    },
+    {
+      "showName": "MainCamera",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "MainCameraATAJPG",
+        "outputsize": "3264x2448",
+        "pic_format": "JPEG",
+        "auto_takepicture_delay": 3000
+      },
+      "requestComm": [
+        "MainCamera"
+      ]
+    },
+    {
+      "showName": "FrontCamera",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "FrontCameraATAJPG",
+        "outputsize": "3264x2448",
+        "pic_format": "JPEG",
+        "auto_takepicture_delay": 2000
+      },
+      "requestComm": [
+        "FrontCamera"
+      ]
+    },
+    {
+      "showName": "DepthCamera",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "DepthCameraATAJPG",
+        "outputsize": "1600x1200",
+        "pic_format": "JPEG",
+        "auto_takepicture_delay": 2000
+      },
+      "requestComm": [
+        "DepthCamera"
+      ]
+    },
+    {
+      "showName":"MacroCamera",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "MarcoCameraATAJPG",
+        "outputsize": "1600x1200",
+        "pic_format": "JPEG",
+        "auto_takepicture_delay": 2000
+      },
+      "requestComm": [
+        "MacroCamera"
+      ]
+    },
+    {
+      "showName": "WideCamera",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "WideCameraATAJPG",
+        "outputsize": "3264x2448",
+        "pic_format": "JPEG",
+        "auto_takepicture_delay": 2000
+      },
+      "requestComm": [
+        "WideCamera"
+      ]
+    },
+    {
+      "showName": "Camera_RAW_Flashlight",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "cameraId": 0,
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": true,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "MainCameraATAFlash",
+        "auto_takepicture_delay": 2000,
+        "pic_format": "RAW_SENSOR",
+        "pic_compression": ""
+      },
+      "requestComm": [
+        "MainCamera"
+      ]
+    },
+    {
+      "showName": "MainCamera_RAW",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 0,
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "MainCameraATA",
+        "auto_takepicture_delay": 3000,
+        "pic_format": "RAW_SENSOR",
+        "pic_compression": "",
+        "==pic_compression==": "图片压缩格式，不设置则不压缩，仅支持zip"
+      },
+      "requestComm": [
+        "MainCamera"
+      ]
+    },
+    {
+      "showName": "FrontCamera_RAW",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "cameraId": 1,
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "FrontCameraATA",
+        "auto_takepicture_delay": 2000,
+        "pic_format": "RAW_SENSOR",
+        "pic_compression": ""
+      },
+      "requestComm": [
+        "FrontCamera"
+      ]
+    },
+    {
+      "showName": "DepthCamera_RAW",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "cameraId": 3,
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "DepthCameraATA",
+        "auto_takepicture_delay": 2000,
+        "pic_format": "RAW_SENSOR",
+        "pic_compression": ""
+      },
+      "requestComm": [
+        "DepthCamera"
+      ]
+    },
+    {
+      "showName": "MacroCamera_RAW",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "cameraId": 4,
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "MacroCameraATA",
+        "auto_takepicture_delay": 2000,
+        "pic_format": "RAW10",
+        "pic_compression": ""
+      },
+      "requestComm": [
+        "MacroCamera"
+      ]
+    },
+    {
+      "showName": "WideCamera_RAW",
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "cameraId": 5,
+        "support_takepicture": true,
+        "support_camera_match": false,
+        "takepicture_not_save_picture": false,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true,
+        "picture_dir": "/sdcard/fac_sources/Camera",
+        "picture_name": "WideCameraATA",
+        "auto_takepicture_delay": 2000,
+        "pic_format": "RAW_SENSOR",
+        "pic_compression": ""
+      },
+      "requestComm": [
+        "WideCamera"
+      ]
+    },
+    {
+      "showName": "LCD_R"
+    },
+    {
+      "showName": "LCD_G"
+    },
+    {
+      "showName": "LCD_B"
+    },
+    {
+      "showName": "LCD_W"
+    },
+    {
+      "showName": "LCD_BL"
+    },
+    {
+      "showName": "LCD_GR"
+    }
+  ]
+}

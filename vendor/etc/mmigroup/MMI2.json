@@ -1,0 +1,151 @@
+{
+	"itemConfig": [{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "Vibrator",
+			"action": "com.mmigroup.action.RANDOMVIBRATER",
+			"support": true,
+			"automatic": false,
+			"paramconfig": {
+				"is_auto_vibrate": false,
+				"randomLongInterval": [
+					6,
+					500,
+					2000
+				],
+				"randomShortInterval": [
+					6,
+					200,
+					200
+				]
+			}
+		},
+		{
+			"showName": "Battery",
+			"support": false,
+			"paramconfig": {
+				"support_afc_charge": false
+			}
+		},
+		{
+			"showName": "Battery_30W",
+			"paramconfig": {
+				"support_afc_charge": false
+			}
+		},
+		{
+			"showName": "Battery_20W",
+			"paramconfig": {
+				"support_afc_charge": false
+			}
+		},
+		{
+			"showName": "OTG"
+		},
+		{
+			"showName": "LCD"
+		},
+		{
+			"showName": "Flashlight"
+		},
+		{
+			"showName": "TouchPanel"
+		},
+		{
+			"showName": "TpOpenShort"
+		},
+		{
+			"showName": "MainCamera",
+			"support": false
+		},
+		{
+			"showName": "FrontCamera",
+			"support": false
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "Gyroscope"
+		},
+		{
+			"showName": "Accelerometer"
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Proximity"
+		},
+		{
+			"showName": "Proximity_C"
+		},
+		{
+			"showName": "Hall"
+		},
+		{
+			"showName": "TopSar"
+		},
+		{
+			"showName": "BottomSar"
+		},
+		{
+			"showName": "SMARTPA",
+			"support": false
+		},
+		{
+			"showName": "LeftTopSpeaker",
+			"support": false
+		},
+		{
+			"showName": "LeftBottomSpeaker",
+			"support": false
+		},
+		{
+			"showName": "RightTopSpeaker",
+			"support": false
+		},
+		{
+			"showName": "RightBottomSpeaker",
+			"support": false
+		},
+		{
+			"showName": "Speaker",
+			"support": false
+		},
+		{
+			"showName": "MainMicToHeadPhone",
+			"support": false
+		},
+		{
+			"showName": "HeadSet",
+			"support": false
+		},
+		{
+			"showName": "HsMicToHeadPhone",
+			"support": false
+		},
+		{
+			"showName": "FM"
+		}
+	]
+}

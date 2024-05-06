@@ -1,0 +1,83 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "MainSIMCard"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "Vibrator",
+      "action": "com.mmigroup.action.RANDOMVIBRATER",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "is_auto_vibrate": false,
+        "randomLongInterval": [
+          6,
+          500,
+          2000
+        ],
+        "randomShortInterval": [
+          6,
+          200,
+          200
+        ]
+      }
+    },
+    {
+      "showName": "Battery",
+      "paramconfig": {
+        "support_afc_charge": false
+      }
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "SMARTPA"
+    },
+	{
+      "showName": "LeftTopSpeaker"
+    },
+	{
+      "showName": "LeftBottomSpeaker"
+    },
+	{
+      "showName": "RightTopSpeaker"
+    },
+	{
+      "showName": "RightBottomSpeaker"
+    },
+	{
+      "showName": "Speaker"
+    },
+	{
+      "showName": "MainMicToHeadPhone"
+    },
+	{
+      "showName": "HeadSet"
+    },
+	{
+      "showName": "HsMicToHeadPhone"
+    },
+	{
+      "showName": "FM"
+    }
+  ]
+}

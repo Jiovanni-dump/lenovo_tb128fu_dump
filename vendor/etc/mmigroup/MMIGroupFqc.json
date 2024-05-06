@@ -1,0 +1,22 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Gyroscope"
+    },
+    {
+      "showName": "Accelerometer"
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "TopSar"
+    },
+    {
+      "showName": "BottomSar"
+    }
+  ]
+}
