@@ -1,0 +1,93 @@
+<!--
+    Input:
+        fp_framework_compatibility_matrix.xml
+        lenovo_framework_compatibility_matrix.xml
+        dax_framework_compatibility_matrix.xml
+        compatibility_matrix.xml
+-->
+<compatibility-matrix version="5.0" type="framework" level="5">
+    <hal format="hidl" optional="true">
+        <name>motorola.hardware.input</name>
+        <version>1.1</version>
+        <interface>
+            <name>IMotInput</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
+        <version>2.1</version>
+        <interface>
+            <name>IGoodixFingerprintDaemon</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IGoodixFingerprintDaemonExt</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.battery</name>
+        <version>1.0</version>
+        <interface>
+            <name>IBattery</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.display</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDisplay</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.factory</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.keyboard</name>
+        <version>1.0</version>
+        <interface>
+            <name>IKeyboard</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.misc</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMisc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.performance</name>
+        <version>1.0</version>
+        <interface>
+            <name>IPerformance</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lenovo.hardware.touchscreen</name>
+        <version>1.0</version>
+        <interface>
+            <name>ITouchscreen</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
