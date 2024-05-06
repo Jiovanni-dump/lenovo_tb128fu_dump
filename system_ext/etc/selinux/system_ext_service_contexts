@@ -1,0 +1,146 @@
+#line 1 "device/qcom/sepolicy/generic/private/service_contexts"
+# Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+#       copyright notice, this list of conditions and the following
+#       disclaimer in the documentation and/or other materials provided
+#       with the distribution.
+#     * Neither the name of The Linux Foundation nor the names of its
+#       contributors may be used to endorse or promote products derived
+#       from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+# OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+cneservice                                           u:object_r:vendor_cne_service:s0
+com.qualcomm.qti.ustaservice.USTAServiceImpl         u:object_r:vendor_usta_app_service:s0
+dpmservice                                     u:object_r:vendor_dpmservice:s0
+MinkBinderSvc                                  u:object_r:vendor_MinkBinderSvc:s0
+vendor.perfservice                             u:object_r:vendor_perf_service:s0
+vendor.qdtservice                              u:object_r:vendor_qdt_service:s0
+sms-sec                                        u:object_r:radio_service:s0
+extphone                                       u:object_r:radio_service:s0
+qti.radio.extphone                             u:object_r:radio_service:s0
+com.qualcomm.location.izat.IzatService         u:object_r:vendor_izat_service:s0
+qti.security.seempspa                          u:object_r:vendor_seemp_service:s0
+vendor.audio.vrservice                         u:object_r:audioserver_service:s0
+com.qti.snapdragon.sdk.display.IColorService   u:object_r:vendor_color_service:s0
+wfdservice                                     u:object_r:vendor_wfdservice_service:s0
+wfdservice64                                   u:object_r:vendor_wfdservice_service:s0
+wigigp2p                                       u:object_r:vendor_wigigp2p_service:s0
+wigig                                          u:object_r:vendor_wigig_service:s0
+display.smomoservice                           u:object_r:surfaceflinger_service:s0
+vendor.vpsservice                              u:object_r:vendor_vps_service:s0
+vendor.qspmsvc                                 u:object_r:vendor_qspmsvc_service:s0
+nfc_settings                                   u:object_r:nfc_service:s0
+nfc.st_ext                                     u:object_r:nfc_service:s0
+vendor.qvirtmgr                                u:object_r:vendor_qvirtmgr_service:s0
+vendor.qti.qesdsys.IQesdSys/default            u:object_r:vendor_qesdk_service:s0
+vendor.qti.hardware.radio.atcmdfwd.IAtCmdFwd/AtCmdFwdAidl u:object_r:radio_service:s0
+#line 1 "lenovo/lgsi/common/components/sepolicy/zuiinputmanager/service_contexts"
+
+# Zui input manager service
+zui_input_manager                     u:object_r:zui_input_manager_service:s0
+zui_stylus_pen_manager                u:object_r:zui_input_manager_service:s0
+#line 1 "lenovo/lgsi/common/components/sepolicy/OVBase/service_contexts"
+omsvc                                  u:object_r:omsvc_service:s0
+onemodeservice                         u:object_r:onemodeservice_service:s0
+
+#line 1 "lenovo/lgsi/common/components/sepolicy/ovfreefrom/service_contexts"
+# // BEGIN Lenovo, yangzh6, 2022/11/14, LGSIT-403, OneVision-Freeform
+# OneVision-Freeform server
+ovfreeform    u:object_r:ovfreeform_service:s0
+# // END LGSIT-403, OneVision-Freeform
+
+#line 1 "lenovo/lgsi/common/components/sepolicy/ovdesktop/service_contexts"
+# OneVision-ZuiOVExtDisplay desktop server
+ov_desktop_service u:object_r:ovdesktop_service:s0
+
+#line 1 "lenovo/lgsi/common/components/sepolicy/lgsipermission/private/service_contexts"
+# just like the line:
+# `permission                                u:object_r:permission_service:s0`
+# in /system/sepolicy/private/service_contexts.
+#
+# `permission_service` is defined in /system/sepolicy/public/service.te
+# We parasite in it and didn't create a standalone service.te
+
+permdebug                     u:object_r:permission_service:s0
+#line 1 "lenovo/lgsi/common/components/sepolicy/zuipermission/private/service_contexts"
+# just like the line:
+# `permission                                u:object_r:permission_service:s0`
+# in /system/sepolicy/private/service_contexts.
+#
+# `permission_service` is defined in /system/sepolicy/public/service.te
+# We parasite in it and didn't create a standalone service.te
+
+zuiopsservice                     u:object_r:appops_service:s0
+#line 1 "lenovo/lgsi/common/components/sepolicy/zuihandwriting/service_contexts"
+#
+# Copyright (C) 2019-2021 EnsureBit Inc.
+# Copyright (C) 2019-2021 EnsureBit Laboratories Co.Ltd.
+#
+# This program is protected under international and China copyright laws as
+# an unpublished work. This program is confidential and proprietary to the
+# copyright owners. Reproduction or disclosure, in whole or in part, or the
+# production of derivative works therefrom without the express permission of
+# the copyright owners is prohibited.
+#
+# All rights reserved.
+#
+
+zui_hand_writing  u:object_r:zui_hand_writing:s0
+#line 1 "lenovo/lgsi/common/components/sepolicy/themes/service_contexts"
+# Themes
+
+zuithemes                     u:object_r:theme_service:s0
+
+AppIconThemeServices          u:object_r:theme_icon_service:s0
+#line 1 "lenovo/lgsi/common/components/sepolicy/zuireadingmode/private/service_contexts"
+zuireadingmode u:object_r:zuireadingmode_service:s0
+
+#line 1 "lenovo/lgsi/common/components/sepolicy/csdkmanagerservice/service_contexts"
+csdk                                           u:object_r:csdk_service:s0
+
+#line 1 "lenovo/lgsi/common/components/sepolicy/zuimode/private/service_contexts"
+# ZuiModeManagerService server
+
+zuimode                     u:object_r:zuimode_service:s0
+
+#line 1 "lenovo/lgsi/common/components/sepolicy/notification/service_contexts"
+
+# Notification
+zuinotification                     u:object_r:zui_notification_service:s0
+#line 1 "lenovo/lgsi/common/components/sepolicy/magicwindow/private/service_contexts"
+magicwindow                     u:object_r:zui_magicwindowservice:s0
+#line 1 "lenovo/lgsi/common/components/sepolicy/aplog/private/service_contexts"
+# For aplog control service
+zui_aplog_control_service    u:object_r:zui_aplog_control_service:s0
+
+#line 1 "lenovo/lgsi/common/components/sepolicy/security/service_contexts"
+# Zui Security server
+
+zuisecurity                     u:object_r:zuisecurity_service:s0
+
+#line 1 "lenovo/lgsi/common/components/sepolicy/zuiperformance/service_contexts"
+zuiperformanceservice                     u:object_r:zui_performanceservice:s0
+#line 1 "lenovo/lgsi/zui/components/sepolicy/protocol/netdlistener_ext/service_contexts"
+netd_listener_ext                         u:object_r:netd_listener_service_ext:s0
+#line 1 "lenovo/lgsi/zui/components/sepolicy/zuicore/service_contexts"
+zuicore    u:object_r:zuicore_service:s0
+
+#line 1 "lenovo/lgsi/zui/components/sepolicy/motsettings/private/service_contexts"
+# Mot settings
+motsettings     u:object_r:mot_system_service:s0

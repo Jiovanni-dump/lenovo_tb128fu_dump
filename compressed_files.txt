@@ -1,0 +1,9 @@
+product/app/WebViewGoogle/WebViewGoogle.apk.xz
+product/priv-app/GmsCore/GmsCore.apk.xz
+system/system/etc/camera/fu_face/fu_face_v3.lic.xz
+system/system/preinstall/OfficeUnion/OfficeUnion.apk.xz
+system/system/preinstall/kwai_HD/oat/arm64/kwai_HD.vdex.xz
+system/system/priv-app/ZuiCamera/ZuiCamera.apk.xz
+system/system/priv-app/ZuiSettings/ZuiSettings.apk.xz
+system/system/priv-app/LFHTianjiaoTablet/LFHTianjiaoTablet.apk.xz
+system/system/priv-app/ZuiBrowser/lib/arm64/libwebviewchromium.so.xz

@@ -1,0 +1,15 @@
+product/app/WebViewGoogle/WebViewGoogle.apk
+product/priv-app/GmsCore/GmsCore.apk
+system/system/etc/camera/fu_face/fu_face_v3.lic
+system/system/preinstall/OfficeUnion/OfficeUnion.apk
+system/system/preinstall/KaDaHD/KaDaHD.apk
+system/system/preinstall/kwai_HD/oat/arm64/kwai_HD.vdex
+system/system/preinstall/jiaojiao/jiaojiao.apk
+system/system/preinstall/Weibo_HDwm/Weibo_HDwm.apk
+system/system/priv-app/PenService/PenService.apk
+system/system/priv-app/ZuiCamera/ZuiCamera.apk
+system/system/priv-app/ZuiSystemUI/ZuiSystemUI.apk
+system/system/priv-app/ZuiWallpaperSetting/ZuiWallpaperSetting.apk
+system/system/priv-app/ZuiSettings/ZuiSettings.apk
+system/system/priv-app/LFHTianjiaoTablet/LFHTianjiaoTablet.apk
+system/system/priv-app/ZuiBrowser/lib/arm64/libwebviewchromium.so

@@ -1,0 +1,3 @@
+on early-init
+   setprop ro.product.motodesktop 1
+
