@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.zui.clone">
+        <permission name="android.permission.MANAGE_BIOMETRIC" />
+    </privapp-permissions>
+</permissions>
+

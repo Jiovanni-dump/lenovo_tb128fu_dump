@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <hide-fg-notify package="com.lenovo.levoice.trigger"/>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+        <!-- Allow run from back ground -->
+        <allow-bg-intents package="com.zui.clone" />
+</config>
+
+

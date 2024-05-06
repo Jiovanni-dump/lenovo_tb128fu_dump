@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Please configure according to the supporting keyboard
+     of the actual project. The configuration below is an
+     example for P12 Pro. -->
+
+<keyboard>
+    <describe_info
+        vendor_id="17ef"
+        product_id="6127">
+    </describe_info>
+
+    <function_key
+        support_fnlock="false"
+        support_volume_mute="true"
+        support_volume_up="true"
+        support_volume_down="true"
+        support_mic_mute="true"
+        support_brightness_up="true"
+        support_brightness_down="true"
+        support_touchpad_toggle="true"
+        support_global_search="true"
+        support_screenshot="true"
+        support_full_screen="true"
+        support_split_screen="true"
+        support_pc_mode="true"
+        support_supper_connect="false"
+        support_diy_app1="false"
+        support_diy_app2="false">
+    </function_key>
+
+    <led
+        support_fnlock_led="false"
+        support_volume_mute_led="true"
+        support_mic_mute_led="true"
+        support_backlight="false">
+    </led>
+
+    <!-- More attributes will be added later... -->
+</keyboard>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+** Copyright 2015, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!--
+    version: V0.1
+-->
+
+<deviceInfo>
+    <!-- Moba Draft 0228 -->
+	<!-- position 值0,1 0代表infoTitle在上，1代表infoSummary在上，2和3的position必须是1 -->
+    <deviceInfo infoTitle="骁龙865" infoSummary="新一代旗舰平台" position = "0" />
+    <deviceInfo infoTitle="UFS 3.0大存储" infoSummary="" position = "1" />
+    <deviceInfo infoTitle="LPDDR5大内存" infoSummary="" position = "1" />
+    <deviceInfo infoTitle="90W超级闪充" infoSummary="双电池，双USB-C" position = "0" />
+    <deviceInfo infoTitle="6.65英寸全面屏" infoSummary="120Hz刷新率" position = "0" />
+    <deviceInfo infoTitle="首创塔型散热" infoSummary="3D叠板中置双向双热管" position = "0" />
+    <deviceInfo infoTitle="音响级外放系统" infoSummary="双1216立体声扬声器" position = "0" />
+    <deviceInfo infoTitle="顶级触觉反馈系统" infoSummary="首创双X轴线性马达" position = "0" />
+    <deviceInfo infoTitle="ZUI 12" infoSummary="顶级游戏体验" position = "0" />
+</deviceInfo>

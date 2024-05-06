@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<themes-config>
+    <multitheme-apps>
+        <app packageName="com.zui.safecenter" />
+        <app packageName="com.zui.safecenter.row" />
+        <app packageName="com.zui.deskclock" />
+        <app packageName="com.zui.calendar" />
+        <app packageName="com.zui.mms" />
+    </multitheme-apps>
+    <mask-shapes>
+        <theme name="apple" shape="apple"/>
+        <theme name="avengers" shape="fillet_rectangle"/>
+        <theme name="bejeweled" shape="gem"/>
+        <theme name="black" shape="black"/>
+        <theme name="blue" shape="square"/>
+        <theme name="car" shape="square"/>
+        <theme name="card" shape="card"/>
+        <theme name="chinesestyle" shape="square_ellipse"/>
+        <theme name="cuddlebear" shape="bear"/>
+        <theme name="girl" shape="girl"/>
+        <theme name="golden" shape="square"/>
+        <theme name="goldgilding" shape="fillet_rectangle"/>
+        <theme name="grace" shape="fillet_rectangle"/>
+        <theme name="heart" shape="heart"/>
+        <theme name="jabe" shape="fillet_rectangle"/>
+        <theme name="lime" shape="square"/>
+        <theme name="luxury" shape="square"/>
+        <theme name="material" shape="circle"/>
+        <theme name="mirage" shape="mirage"/>
+        <theme name="mostbeautiful" shape="most_beautiful"/>
+        <theme name="phantom" shape="tom"/>
+        <theme name="pink" shape="circle"/>
+        <theme name="reunion" shape="reunion"/>
+        <theme name="startrails" shape="fillet_rectangle"/>
+        <theme name="superhero" shape="circle"/>
+        <theme name="thin" shape="thin"/>
+        <theme name="thinarmor" shape="thin"/>
+        <theme name="tiger" shape="tiger"/>
+        <theme name="lantern" shape="lantern"/>
+        <theme name="ice" shape="circle"/>
+        <theme name="rich" shape="rich"/>
+        <theme name="blackwhite" shape="mono"/>
+        <theme name="plantdoll" shape="circle"/>
+        <theme name="moonunder" shape="circle"/>
+        <theme name="cartooncow" shape="circle"/>
+        <theme name="eyegreen" shape="fillet_rectangle"/>
+        <theme name="wantdessert" shape="greediness"/>
+        <theme name="coolsummer" shape="fillet_rectangle"/>
+        <theme name="moonbear" shape="fillet_rectangle"/>
+        <theme name="fenice" shape="fenice"/>
+        <theme name="wing" shape="circle"/>
+        <theme name="rebirth" shape="rebirth"/>
+        <theme name="goku" shape="goku"/>
+        <theme name="swan" shape="circle"/>
+        <theme name="kitty" shape="fillet_rectangle"/>
+        <theme name="matisse" shape="matisse"/>
+        <theme name="tabui" shape="tabui"/>
+        <theme name="tide" shape="tide"/>
+        <theme name="gminor" shape="circle"/>
+        <theme name="universe" shape="universe"/>
+        <theme name="windmill" shape="heart"/>
+        <theme name="writing" shape="circle"/>
+        <theme name="yanggongdi" shape="yanggd"/>
+    </mask-shapes>
+</themes-config>

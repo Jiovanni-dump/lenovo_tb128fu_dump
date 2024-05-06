@@ -1,0 +1,10 @@
+service dumpmeminfo /system/bin/zuidebug_dump_meminfo.sh
+    user root
+    group system
+    oneshot
+    disabled
+
+on property:sys.zuidebug.dump_meminfo=1
+    start dumpmeminfo
+    setprop sys.zuidebug.dump_meminfo 0
+

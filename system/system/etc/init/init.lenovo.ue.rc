@@ -1,0 +1,8 @@
+
+service ue_server /system/bin/ue_server
+    class main
+    priority -10
+    user system
+    socket uedata stream 660 system 1998
+    socket ueappdata stream 660 system root
+

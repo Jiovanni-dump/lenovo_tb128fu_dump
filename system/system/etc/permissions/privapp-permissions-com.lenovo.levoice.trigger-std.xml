@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.lenovo.levoice.trigger">
+    <permission name="android.permission.CAPTURE_AUDIO_HOTWORD" />
+    <permission name="android.permission.MANAGE_SOUND_TRIGGER" />
+    <permission name="android.permission.RECORD_AUDIO" />
+    <permission name="android.permission.WAKE_LOCK" />
+	<permission name="android.permission.STOP_APP_SWITCHES"/>
+    </privapp-permissions>
+</permissions>

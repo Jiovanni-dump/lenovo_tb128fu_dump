@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+        <!-- Allow run from back ground -->
+        <allow-bg-intents package="com.lenovo.leos.cloud.sync" />
+        <!-- Allow auto run [ZUIS-7938] -->
+        <default_allow_auto_run package="com.lenovo.leos.cloud.sync" allowtype="hide" />
+</config>
+

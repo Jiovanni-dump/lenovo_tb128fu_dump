@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.lenovo.levoice.caption">
+        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+    </exception>
+</exceptions>

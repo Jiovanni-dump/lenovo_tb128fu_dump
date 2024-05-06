@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.lenovo.levoice.caption">
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW" />
+        <permission name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+        <permission name="android.permission.RECORD_AUDIO" />
+        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+        <permission name="android.permission.MODIFY_AUDIO_SETTINGS" />
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
+        <permission name="android.permission.FOREGROUND_SERVICE" />
+        <permission name="android.permission.STATUS_BAR" />
+        <permission name="android.permission.STOP_APP_SWITCHES" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.EXPAND_STATUS_BAR" />
+        <permission name="android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT" />
+        <permission name="android.permission.MANAGE_MEDIA_PROJECTION" />
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING" />
+        <permission name="android.permission.READ_PHONE_STATE" />
+        <permission name="android.permission.com.lenovo.menu_assistant.permission.CAPTION" />
+    </privapp-permissions>
+</permissions>

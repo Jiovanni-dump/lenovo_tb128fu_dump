@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+        <default_allow_auto_run package="com.zui.contacts" allowtype="hide" />
+        <allow-bg-intents package="com.zui.contacts" />
+</config>
+

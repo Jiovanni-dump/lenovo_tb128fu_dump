@@ -1,0 +1,5 @@
+#Need to do re-adapted different Platforms
+#on boot
+#    chmod 0600 /dev/block/sdc36
+#    chown system system /dev/block/sdc36
+

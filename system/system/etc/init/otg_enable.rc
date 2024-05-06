@@ -1,0 +1,6 @@
+#Need to do re-adapted different Platforms
+#on boot
+#    chmod 0777 /sys/devices/platform/soc/11201000.usb0/otg_enable
+#    chown system system /sys/devices/platform/soc/11201000.usb0/otg_enable
+#    chmod 0777 /sys/devices/platform/soc/11211000.usb1/otg_enable
+#    chown system system /sys/devices/platform/soc/11211000.usb1/otg_enable
